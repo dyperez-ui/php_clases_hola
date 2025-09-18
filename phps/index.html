@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php</title>
+</head>
+<body>
+    <h1>Hola mundo</h1>
+    <a href="inicio.php">Ir a inicio</a>
+    <a href="home.php">Ir a index</a>
+    <br>
+
+    <form action="validar-sesion.php" method="post">
+    <fieldset>
+
+        <legend>Inicio sesion</legend>
+        <div>
+            <label for="userTxt">Usuario</label>
+            <input type="text" id="userTxt" name="user" required>
+            <div>
+                <label for="pedTxt">Contraseña</label>
+                <input type="password" id="pedTxt" name="pwd" required>
+            </div>
+            <div>
+                   <button type="submit">Iniciar sesion</button>
+            
+            </div>
+        </div>
+    </fieldset>
+    
+</body>
+</html>
